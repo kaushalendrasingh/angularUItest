@@ -1,0 +1,14 @@
+# node modules
+node_modules
+
+# package-lock
+package-lock.json
+
+# yarn-lock
+yarn.lock
+
+# vscode
+.vscode
+
+#.DS_Store
+.DS_Store
