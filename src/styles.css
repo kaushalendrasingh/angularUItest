@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+
+html, body 
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* ===================== header ==================*/
+.hdTop {
+    padding: 10px 0;
+  }
+  /*.hdTop button{float:right;background:#1b1b1b;color:#fff;font-size:16px;font-weight:500;min-width:190px;padding:5px;border-radius:5px;margin:15px 0;}
+  .hdTop button:hover{background:#ff1d4d;}*/
+  nav {
+    background: #fa654a;
+  }
+  .webLogo {
+    float: left;
+    margin-top: -68px;
+  }
+  .user-icon { 
+    height: 44px;
+    width: 4%;
+    margin-left: 1148px;
+    margin-top: -28px;
+  }
+  
+  .topMenu {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .topMenu li {
+    display: inline-block;
+    padding: 0 15px;
+    text-align: left;
+  }
+  .topMenu li + li {
+    border-left: 1px solid #c6c6c6;
+  }
+  .topMenu li a {
+    color: #2d2c2c;
+    font-size: 16px;
+  }
+  .topMenu li a:hover {
+    color: #6363f5;
+  }
+  .topMenu li a span {
+    display: block;
+  }
+  #panel {
+    display: inline-block;
+  }
+  #flip {
+    display: none;
+  }
+  .signUp {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: -219px;
+  }
+  .signUp li {
+    display: inline-block;
+  }
+  .signUp li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d2c2c;
+    padding: 3px 25px;
+    border-radius: 25px;
+  }
+  .signUp li a:hover,
+  .signUp li a.active {
+    
+    margin-left: 1013px;  }
+  .patientTitle {
+    font-size: 23px;
+    color: #CDCDCD;
+    line-height: 60px;
+    position: relative;
+    top: -69px;
+    left: 88px;
+  }
